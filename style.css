@@ -1,6 +1,6 @@
 @import url(navbar2-hover.css);
-@import url();
-@import url();
+@import url(page1.css);
+@import url(navbar3.css);
 
 #SMIT-logo{
     margin-left: 10px;
@@ -12,8 +12,8 @@
 }
 
 #navbar1{
-    margin-top: -10px;
-    margin-bottom: -10px;
+    margin-top: -5px;
+    margin-bottom: -5px;
 }
 .text-mail{
     font-size: small;
