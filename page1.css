@@ -1,0 +1,19 @@
+
+#content{
+    float: left;
+    width: 300px;
+    height: 200px;
+    border: 2px solid green;
+}
+
+#image{
+    float: right;
+    width: 50%;
+    border: 2px solid blue;
+}
+
+#text-data{
+    word-spacing: 2em;
+    font-size: large;
+    padding-left: 10px;
+}

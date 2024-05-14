@@ -1,3 +1,26 @@
+#English{
+    background-color: rgb(221, 243, 243);
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
 .hover-nav2:hover{
-    text-decoration: underline 2px solid green;
+    text-decoration: underline 2px solid rgb(50, 232, 50);
+    background-color: whitesmoke;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid rgb(50, 232, 50);
+    box-shadow: 1px;
+}
+
+.button-hover:hover{
+    
 }
