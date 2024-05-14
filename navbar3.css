@@ -4,7 +4,13 @@
     margin-right: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
-    height: 100px;
-    width: 100%;
-    background-image: linear-gradient(to right, lightgray, lightblue, pink);
+    height: 120px;
+    width: 98%;
+    background-image: linear-gradient(to right, lightgray, lightblue);
+}
+
+.input-group{
+    width: 250px;
+    height: 40px;
+    
 }
