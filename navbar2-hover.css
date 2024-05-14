@@ -7,7 +7,11 @@
     margin-bottom: 5px;
 }
 
-
+.size-bar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 2px 3px rgb(250, 245, 245);
+}
 
 
 
@@ -19,6 +23,7 @@
     border-right: 0;
     border-bottom: 2px solid rgb(50, 232, 50);
     box-shadow: 1px;
+
 }
 
 .button-hover:hover{
