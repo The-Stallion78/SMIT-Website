@@ -34,3 +34,7 @@
     padding-right: 10px;
     font-size: medium;
 }
+
+.button-hover:hover{
+    font-size: small;
+}
