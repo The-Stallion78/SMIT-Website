@@ -1,5 +1,5 @@
 #English{
-    background-color: rgb(221, 243, 243);
+    background-image: linear-gradient(to right, lightgrey);
     padding-left: 10px;
     padding-right: 10px;
     border: 1px solid black;
@@ -13,7 +13,10 @@
     box-shadow: 2px 3px rgb(250, 245, 245);
 }
 
-
+.hover-nav2{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 .hover-nav2:hover{
     text-decoration: underline 2px solid rgb(50, 232, 50);
@@ -26,6 +29,8 @@
 
 }
 
-.button-hover:hover{
-    
+.button-hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: medium;
 }
