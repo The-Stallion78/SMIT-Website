@@ -33,3 +33,10 @@
     padding-left: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#donation-record{
+    width: 98%;
+    height: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
