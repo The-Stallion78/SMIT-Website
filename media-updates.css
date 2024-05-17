@@ -22,10 +22,24 @@
     width: 98%;
     height: 100px;
     margin: 10px;
-    border: 1px solid black;
+    /* border: 1px solid rgb(34, 210, 28); */
 }
 
 #news-updates-text{
     text-align: center;
-    padding:48px;
+    padding:30px;
+}
+
+#div-News{
+    width: 98%;
+    height: 380px;
+    margin: 10px;
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.radius{
+    border-radius: 15px;
 }
