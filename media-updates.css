@@ -34,12 +34,16 @@
     width: 98%;
     height: 380px;
     margin: 10px;
-    /* border: 1px solid black; */
-    margin-bottom: 20px;
+    border: 1px solid black;
+    margin-bottom: 60px;
     display: flex;
     justify-content: space-between;
 }
 
 .radius{
     border-radius: 15px;
+}
+
+.radius-img{
+    border-radius: 10px;
 }
