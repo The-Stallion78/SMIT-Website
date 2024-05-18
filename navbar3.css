@@ -6,7 +6,7 @@
     padding-bottom: 15px;
     height: 120px;
     width: 98%;
-    background-image: linear-gradient(to right, lightgray, lightblue);
+    background-image: linear-gradient(to right, rgb(238, 247, 250), rgb(233, 230, 230));
 }
 
 .input-group{

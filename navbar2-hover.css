@@ -1,5 +1,5 @@
 #English{
-    background-color: lightgrey;
+    background-color: lightblue;
     padding-left: 10px;
     padding-right: 10px;
     border: 1px solid black;
@@ -10,21 +10,18 @@
 .size-bar{
     padding-top: 5px;
     padding-bottom: 5px;
-    box-shadow: 2px 3px rgb(250, 245, 245);
 }
 
 .hover-nav2{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .hover-nav2:hover{
     text-decoration: underline 2px solid rgb(50, 232, 50);
     background-color: whitesmoke;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
     border-bottom: 2px solid rgb(50, 232, 50);
+    border-radius: 8px;
     box-shadow: 1px;
 
 }
@@ -32,9 +29,9 @@
 .button-hover{
     padding-left: 10px;
     padding-right: 10px;
-    font-size: medium;
+    font-size: small;
 }
 
 .button-hover:hover{
-    font-size: small;
+    font-size: medium;
 }
