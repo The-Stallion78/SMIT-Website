@@ -9,8 +9,20 @@
     background-image: linear-gradient(to right, lightgray, lightblue);
 }
 
-.input-group{
-    width: 250px;
-    height: 40px;
-    
+.main-div{
+    margin-top: 5px;
+}
+
+.first-div{
+    height: 50px;
+    padding-top: 5px;
+    background-color: rgb(99, 95, 95);
+    border-radius: 8px 0px 0px 8px;
+}
+
+.sec-div{
+    height: 50px;
+    padding-top: -5px;
+    background-color: rgb(99, 95, 95);
+    border-radius: 0px 8px 8px 0px;
 }

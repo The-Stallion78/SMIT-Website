@@ -119,12 +119,18 @@
   <nav class="navbar navbar-expand-lg nav3">
     <div class="container-fluid">
 
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="input-group main-div">
+        <div class="input-group-text first-div" id="btnGroupAddon">General</div>
+        <input type="text" class="form-control" placeholder="Input Amount" aria-label="Input group example" aria-describedby="btnGroupAddon">
+        <div class="input-group-text sec-div" id="btnGroupAddon">RS</div>
+      </div> 
+
+      <button style="transition: background-color 0.5s ease-out;" type="button" class="btn btn-outline-secondary btn-lg">Blood Bank / Thalassemia Treatment</button> 
+      <button style="transition: background-color 0.5s ease-out;" type="button" class="btn btn-outline-secondary btn-lg">Family Kifalat</button>
+      <button style="transition: background-color 0.5s ease-out;" type="button" class="btn btn-outline-secondary btn-lg">Medical</button>
+      <button style="transition: background-color 0.5s ease-out;" type="button" class="btn btn-outline-secondary btn-lg">Food</button>
+      <button style="transition: background-color 0.5s ease-out;" type="button" class="btn btn-success btn-lg">Quick Donate</button>
+      <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -153,7 +159,7 @@
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        </form> -->
       </div>
     </div>
   </nav>
@@ -277,6 +283,7 @@
     <h2 id="media-updates-text">Media Updates</h2>
   </div>
 
+     <!-- Videos Cards-->
   <div id="div-videos">
     <h2>this is Videos Portion</h2>
   </div>
@@ -286,6 +293,7 @@
     <h2 id="news-updates-text">News</h2>
   </div>
 
+  <!--News Cards-->
   <div id="div-News">
     <div class="card radius" style="width: 18rem;">
       <img src="./Images/news1.jpg" class="card-img-top radius-img" alt="...">
@@ -325,15 +333,10 @@
     </div>
 
   </div>
-
-  <img src="./Images/Saylani-guide.png" alt="">
-
-
-
-
-
-
-
+ 
+  <!--FOOTER Section-->
+  <img id="footer-form" src="./Images/Saylani-guide.png" alt="footer form">
+  <img id="footer" src="Images/Footer.png" alt="Footer Image">
 
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
