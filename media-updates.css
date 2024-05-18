@@ -12,11 +12,29 @@
 
 #div-videos{
     width: 98%;
-    height: 550px;
+    height: 940px;
     margin: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-bottom: 20px;
 }
+
+.video-card {
+    border: 1px solid red;
+    width: 300px;
+    float: left;
+    display: flex;
+  }
+  .video-card img {
+    max-height: 300px;
+    object-fit: cover;
+  }
+  .video-description {
+    height: 60px;
+    overflow: hidden;
+  }
+
+
+
 
 #news-updates-div{
     width: 98%;
@@ -36,6 +54,16 @@
     margin: 10px;
     /* border: 1px solid black; */
     margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#div-News2{
+    width: 98%;
+    height: 380px;
+    margin: 10px;
+    /* border: 1px solid rgb(78, 166, 51); */
+    padding-top: 40px;
     display: flex;
     justify-content: space-between;
 }
