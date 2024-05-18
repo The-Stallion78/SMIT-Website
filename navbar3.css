@@ -9,10 +9,10 @@
     background-image: linear-gradient(to right, lightgray, lightblue);
 }
 
-.main-div{
-    margin-top: 5px;
+.input-group{
+    margin-top: 0px;
+    width: 250px;
 }
-
 .first-div{
     height: 50px;
     padding-top: 5px;
