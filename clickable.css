@@ -39,3 +39,38 @@
     opacity: 1;
     background-image: linear-gradient(to right, lightblue);
 }
+
+
+@media (max-width :787px){
+   
+    
+#Images-Clickable{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 150px;
+    margin-bottom: 20px;
+    display: flex;
+ justify-content: center;
+    flex-direction: column;
+    border: 0 solid #e5e7eb;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: none;
+}
+
+#clickable{
+ 
+    border-radius: 10px;
+    width: 100%;
+    height: autopx;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightblue;
+}
+    }

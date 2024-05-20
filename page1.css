@@ -55,3 +55,29 @@ div h1{
 .btn-explore span{
     font-size: medium;
 }
+
+
+
+@media (max-width :787px){
+    
+#content{
+    width: 80%;
+    height: 500px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#image{
+    /* border: 2px solid blue; */
+    width: 100%;
+    margin-top: 20px;
+    height: 500px;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+}

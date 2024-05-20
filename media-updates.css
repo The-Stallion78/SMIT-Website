@@ -57,7 +57,18 @@
     display: flex;
     justify-content: space-between;
 }
-
+@media (max-width :787px){
+    #div-News{
+        width: 98%;
+        height: 380px;
+        margin: 30px;
+        /* border: 1px solid black; */
+        margin-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+}
 #div-News2{
     width: 98%;
     height: 380px;
